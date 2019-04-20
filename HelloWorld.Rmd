@@ -1,0 +1,20 @@
+---
+title: "HelloWorld"
+author: "Meghan Harris"
+date: "4/20/2019"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+## This is a markdown file
+
+```{echo=FALSE}
+
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
